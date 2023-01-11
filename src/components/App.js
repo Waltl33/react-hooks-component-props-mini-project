@@ -12,8 +12,8 @@ function App() {
           name = {blogData.name}
           />
       <About image = {blogData.image} about ={blogData.about} />
-      {ArticleList(blogData)}
-      {/* <ArticleList = {blogData.posts} />*/}
+      {/* {ArticleList(blogData)} */}
+      <ArticleList posts = {blogData.posts} />
     </div>
   );
 }

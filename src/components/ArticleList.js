@@ -1,8 +1,8 @@
 import Article from "./Article"
 
-
+// this is a functional component
 function ArticleList({posts}){
-
+//
 const myPosts = posts.map(post => 
         <Article
             key={post.id} 
