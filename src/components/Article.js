@@ -1,5 +1,5 @@
 import React from "react";
-import blogData from "../data/blog"
+
 
 
 function Article({title, date = "January 1, 1970", preview}) {

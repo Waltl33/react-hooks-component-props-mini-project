@@ -3,7 +3,6 @@ import blogData from "../data/blog";
 import Header from "./Header"
 import About from "./About"
 
-import Article from "./Article"
 import ArticleList from "./ArticleList";
 
 function App() {
@@ -17,11 +16,7 @@ function App() {
        <ArticleList
        post = {blogData.posts}
        />
-       <Article 
-       title = {blogData.title}
-       date = {blogData.date}
-       preview = {blogData.preview}
-       />
+       
     </div>
   );
 }

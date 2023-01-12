@@ -1,5 +1,4 @@
 import React from "react";
-import blogData from "../data/blog"
 import Article from "./Article";
 
 function ArticleList({post}){
@@ -18,10 +17,10 @@ const myPosts = post.map(eachPost =>(
 
     return (
 
-        <>
+        <main>{myPosts}</main>
 
 
-        </>
+    
     )
 }
 
